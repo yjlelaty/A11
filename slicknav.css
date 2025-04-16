@@ -1,0 +1,122 @@
+/*
+    Mobile Menu Core Style
+*/
+
+.slicknav_btn {
+	position: relative;
+	display: block;
+	float: right;
+	padding-top: 0.438em;
+	padding-bottom: 0.438em;
+	padding-left: 0.625em;
+	padding-right: 0.625em;
+	line-height: 1.125em;
+	cursor: pointer;
+	margin: 5px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	border-radius: 4px;
+	background-color: #800000;
+}
+
+.slicknav_menu .slicknav_menutxt {
+	display: block;
+	line-height: 1.188em;
+	float: left;
+	color: white;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.slicknav_menu .slicknav_icon {
+	float: left;
+	margin: 0.188em 0 0 0.438em;
+}
+
+.slicknav_menu .slicknav_no-text {
+	margin: 0;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+	display: block;
+	width: 1.125em;
+	height: 0.125em;
+	border-radius: 1px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	background-color: white;
+}
+
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+	margin-top: 0.188em;
+}
+
+.slicknav_nav {
+	clear: both;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 0.875em;
+	background-color: #800000;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slicknav_nav ul,
+.slicknav_nav li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.slicknav_nav ul {
+	margin-left: 20px;
+}
+
+.slicknav_nav .slicknav_arrow {
+	font-size: 0.8em;
+	margin: 0 0 0 0.4em;
+}
+
+.slicknav_nav .slicknav_item {
+	display: block;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin: 2px 5px;
+}
+
+.slicknav_nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.slicknav_nav a:hover,
+.slicknav_nav .slicknav_item:hover {
+	border-radius: 6px;
+	background-color: #f6bb73;
+	color: #800000;
+}
+
+.slicknav_menu:before,
+.slicknav_menu:after {
+	content: " ";
+	display: table;
+}
+
+.slicknav_menu:after {
+	clear: both;
+}
+
+.slicknav_menu {
+	font-size: 16px;
+	background-color: #800000;
+	padding: 5px;
+}
+
+/* Optional: Improve spacing on small screens */
+@media screen and (max-width: 600px) {
+	.slicknav_nav a {
+		padding: 12px;
+	}
+}
